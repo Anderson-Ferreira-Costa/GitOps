@@ -1,12 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - ../k8s/deployment.yaml
-  - ../k8s/service.yaml
+- ../k8s/deployment.yaml
+- ../k8s/service.yaml
 
 namespace: goapp
 
 images:
-  - name: andersonbatistaferreiracosta/argocd-fullcycle
-    newName: andersonbatistaferreiracosta/argocd-fullcycle
-    newTag: v1
+- name: andersonbatistaferreiracosta/argocd-fullcycle
+  newName: andersonbatistaferreiracosta/argocd-fullcycle
+  newTag: 883745f97d24bf49fb483aaff23b23c09f346ced
