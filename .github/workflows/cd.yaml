@@ -40,11 +40,11 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "github-actions"
-          git commit -am "Update image version"
+          git commit -am "Update image version to ${{ github.sha }}"
 
       - name: push changes
         uses: ad-m/github-push-action@master  
         with:
           github_token: ${{ secrets.PUSH_TOKEN }}
-          branch: ${{ github.ref }}
+          branch: master
       
