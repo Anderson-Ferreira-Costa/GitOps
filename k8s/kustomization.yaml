@@ -8,5 +8,4 @@ namespace: goapp
 
 images:
 - name: andersonbatistaferreiracosta/argocd-fullcycle
-  newName: andersonbatistaferreiracosta/argocd-fullcycle
   newTag: 883745f97d24bf49fb483aaff23b23c09f346ced
