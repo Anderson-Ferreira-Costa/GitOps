@@ -70,3 +70,31 @@ Handling connection for 8080
 Handling connection for 8080
 Handling connection for 8080
 Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+E0607 10:21:17.938127   11878 portforward.go:381] error copying from remote stream to local connection: readfrom tcp6 [::1]:8080->[::1]:40330: write tcp6 [::1]:8080->[::1]:40330: write: broken pipe
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+E0607 10:23:25.915324   11878 portforward.go:381] error copying from remote stream to local connection: readfrom tcp6 [::1]:8080->[::1]:58936: write tcp6 [::1]:8080->[::1]:58936: write: broken pipe
